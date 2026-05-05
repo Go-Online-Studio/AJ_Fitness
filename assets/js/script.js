@@ -17,13 +17,12 @@
     phoneHref: 'tel:+917905791668',
     email: 'info@ajfitness.com',
     emailHref: 'mailto:info@ajfitness.com',
-    address: '1st Floor, Indu Suzuki Pushp Hub, Old Chhani Rd, opp. L&T Health Care, Chistiya Nagar, Chhani Jakatnaka, Vadodara, Gujarat 390002',
+    address: '1st Floor, Pushp Hub, Old Chhani Rd, opp. L&T Health Care, Chistiya Nagar, Chhani Jakatnaka, Vadodara, Gujarat 390002',
     addressHref: 'https://maps.google.com/?q=AJ+Fitness+Vadodara',
     mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14760.96025075036!2d73.16024202012265!3d22.34456263378423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc9562c56aad3%3A0xb5ba37f40b28c84c!2sAJ%20fitness!5e0!3m2!1sen!2sin!4v1777878475057!5m2!1sen!2sin',
     social: {
-      facebook: '#',
+      facebook: 'https://www.facebook.com/people/AJ-Fitness/61589411332666/',
       instagram: 'https://www.instagram.com/ajfitness_vadodara/',
-      youtube: '#'
     }
   };
 
@@ -46,7 +45,6 @@
               <div class="footer-social">
                 <a href="${SITE_INFO.social.facebook}" target="_blank" aria-label="Facebook"><span class="iconify" data-icon="mdi:facebook"></span></a>
                 <a href="${SITE_INFO.social.instagram}" target="_blank" aria-label="Instagram"><span class="iconify" data-icon="mdi:instagram"></span></a>
-                <a href="${SITE_INFO.social.youtube}" target="_blank" aria-label="YouTube"><span class="iconify" data-icon="mdi:youtube"></span></a>
               </div>
             </div>
           </div>
