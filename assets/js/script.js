@@ -59,6 +59,7 @@
               <li><a href="programs.html">Programs</a></li>
               <li><a href="trainers.html">Trainers</a></li>
               <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="timetable.html">Full Schedule</a></li>
             </ul>
           </div>
           <!-- Contact Info -->
