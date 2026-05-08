@@ -463,3 +463,86 @@
   transform: translateY(-3px) !important;
   box-shadow: var(--glow-primary-strong) !important;
 }
+
+/* ============================================
+   Facilities Section
+   ============================================ */
+.facilities-section{
+  background: var(--dark-2);
+  position: relative;
+}
+
+.facility-card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.01) 100%);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-lg);
+  padding: 35px 25px;
+  height: 100%;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.facility-card::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--primary), transparent);
+  transition: 0.6s ease;
+}
+
+.facility-card:hover::before{
+  left: 100%;
+}
+
+.facility-card:hover{
+  transform: translateY(-8px);
+  border-color: rgba(var(--primary-rgb),0.2);
+  box-shadow:
+    0 20px 40px rgba(0,0,0,0.35),
+    0 0 25px rgba(var(--primary-rgb),0.08);
+}
+
+.facility-icon{
+  width: 70px;
+  height: 70px;
+  border-radius: 16px;
+  background: rgba(var(--primary-rgb),0.08);
+  border: 1px solid rgba(var(--primary-rgb),0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  transition: var(--transition);
+}
+
+.facility-card:hover .facility-icon{
+  background: var(--primary);
+  box-shadow: var(--glow-primary);
+}
+
+.facility-icon .iconify{
+  font-size: 2rem;
+  color: var(--primary);
+  transition: var(--transition);
+}
+
+.facility-card:hover .facility-icon .iconify{
+  color: var(--dark);
+}
+
+.facility-card h3{
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.facility-card p{
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 0;
+}

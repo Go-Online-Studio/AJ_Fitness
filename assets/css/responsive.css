@@ -71,6 +71,15 @@
 
   .footer { padding: 60px 0 0; }
   .footer [class*="col-"] { margin-bottom: 30px; }
+  .facility-card{
+    padding: 28px 20px;
+    text-align: center;
+  }
+
+  .facility-icon{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* ---- Mobile (575px) ---- */
@@ -142,6 +151,22 @@
   .navbar-custom .btn-nav { display: none; }
 
   .cursor-dot, .cursor-outline { display: none !important; }
+   .facility-card h3{
+    font-size: 1.05rem;
+  }
+
+  .facility-card p{
+    font-size: 0.82rem;
+  }
+
+  .facility-icon{
+    width: 60px;
+    height: 60px;
+  }
+
+  .facility-icon .iconify{
+    font-size: 1.7rem;
+  }
 }
 
 
