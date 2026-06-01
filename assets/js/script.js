@@ -9,12 +9,12 @@
   /* ══════════════════════════════════════════
      CONFIG
      ══════════════════════════════════════════ */
-  const WHATSAPP_PHONE = '917905791668';
+  const WHATSAPP_PHONE = '918487042256';
   const WHATSAPP_MESSAGE = 'Hello, I am interested in AJ Fitness. Please share more details.';
 
   const SITE_INFO = {
-    phone: '+91 79057 91668',
-    phoneHref: 'tel:+917905791668',
+    phone: '+91 84870 42256',
+    phoneHref: 'tel:+918487042256',
     email: 'info@ajfitness.com',
     emailHref: 'mailto:info@ajfitness.com',
     address: '1st Floor, Pushp Hub, Old Chhani Rd, opp. L&T Health Care, Chistia Nagar, Chhani Jakatnaka, Vadodara, Gujarat 390002',

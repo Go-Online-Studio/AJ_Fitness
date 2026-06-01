@@ -8,7 +8,7 @@
   'use strict';
 
   /* ── CONFIG ── */
-  const WHATSAPP_PHONE = '917905791668';
+  const WHATSAPP_PHONE = '918487042256';
   const NAV_LINKS = [
     { label: 'Home',     href: 'index.html' },
     { label: 'About',    href: 'about.html' },

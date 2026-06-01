@@ -49,7 +49,7 @@
       message += `*Message:* ${data.message || 'N/A'}`;
 
       /* ── Get WhatsApp Config ── */
-      const phone = (window.AJ_CONFIG && window.AJ_CONFIG.WHATSAPP_PHONE) || '917905791668';
+      const phone = (window.AJ_CONFIG && window.AJ_CONFIG.WHATSAPP_PHONE) || '918487042256';
 
       /* ── Device Detection ── */
       const isMobile = /Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);

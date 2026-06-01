@@ -9,7 +9,7 @@ function initWhatsAppLinks() {
     e.preventDefault();
     const programName = btn.dataset.program || 'General Inquiry';
     const message = encodeURIComponent(`Hello, I want enquiry for ${programName}`);
-    const phone = '917905791668'; // Replace with actual number
+    const phone = '918487042256'; // Replace with actual number
 
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     const baseUrl = isMobile ? 'https://api.whatsapp.com' : 'https://web.whatsapp.com';
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.preventDefault();
       const name = this.dataset.program || 'General Inquiry';
       const msg = encodeURIComponent(`Hello, I want enquiry for ${name}`);
-      const phone = '917905791668';
+      const phone = '918487042256';
       const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
       const base = isMobile ? 'https://api.whatsapp.com' : 'https://web.whatsapp.com';
       window.open(`${base}/send?phone=${phone}&text=${msg}`, '_blank');
