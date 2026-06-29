@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://ajfitness.com/sitemap.xml
+Sitemap: https://ajfitness.co.in/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
